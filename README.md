@@ -1,12 +1,12 @@
 # Node package
 
-[![version](https://img.shields.io/npm/v/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![build status](https://travis-ci.org/SWalls/node-package-template.svg?branch=master)](https://travis-ci.org/SWalls/node-package-template)
-[![coverage status](https://coveralls.io/repos/github/SWalls/node-package-template/badge.svg?branch=master)](https://coveralls.io/github/SWalls/node-package-template?branch=master)
-[![dependency status](https://david-dm.org/SWalls/node-package-template.svg)](https://david-dm.org/SWalls/node-package-template)
-[![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![downloads](https://img.shields.io/npm/dt/@swalls/node-package-template.svg)](https://www.npmjs.com/package/@swalls/node-package-template)
-[![GitHub Action: Push](https://github.com/SWalls/node-package-template/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/node-package-template/actions/workflows/push.yml)
+[![version](https://img.shields.io/npm/v/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
+[![build status](https://travis-ci.org/SWalls/audiotrip-choreo-utils.svg?branch=master)](https://travis-ci.org/SWalls/audiotrip-choreo-utils)
+[![coverage status](https://coveralls.io/repos/github/SWalls/audiotrip-choreo-utils/badge.svg?branch=master)](https://coveralls.io/github/SWalls/audiotrip-choreo-utils?branch=master)
+[![dependency status](https://david-dm.org/SWalls/audiotrip-choreo-utils.svg)](https://david-dm.org/SWalls/audiotrip-choreo-utils)
+[![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
+[![downloads](https://img.shields.io/npm/dt/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
+[![GitHub Action: Push](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml)
 
 Description 
 
@@ -14,25 +14,25 @@ Description
 
 ### Use npm or yarn
 
-- `npm install @swalls/node-package-template` or
-- `yarn add @swalls/node-package-template`
+- `npm install @swalls/audiotrip-choreo-utils` or
+- `yarn add @swalls/audiotrip-choreo-utils`
 
 ### From sources
 
 Clone repository with Git:
 
 ```sh
-$ git clone https://github.com/SWalls/node-package-template.git
-$ cd node-package-template
+$ git clone https://github.com/SWalls/audiotrip-choreo-utils.git
+$ cd audiotrip-choreo-utils
 ```
 
 Or download repository with ZIP:
 
 ```sh
-$ curl -LO https://github.com/SWalls/node-package-template/archive/master.zip
+$ curl -LO https://github.com/SWalls/audiotrip-choreo-utils/archive/master.zip
 $ unzip master.zip
 $ rm master.zip
-$ cd node-package-template
+$ cd audiotrip-choreo-utils
 ```
 
 Reinitialize Git repository:
@@ -51,9 +51,9 @@ $ npm install
 ## Use
 
 ```typescript
-import packageName from '@swalls/node-package-template';
+import * as ChoreoUtils from '@swalls/audiotrip-choreo-utils';
 
-packageName();
+const choreo = ChoreoUtils.readAtsFile('/path/to/choreo.ats');
 ```
 
 
@@ -103,11 +103,12 @@ $ npm run lint:fix
 - If you use VIM, run `yarn sdks vim`.
 - If you use Visual Studio Code, run `yarn sdks vscode`.
 
+## Support
+
+This free open-source software was made with :heart: by a real person - me! If you found this tool useful, please consider tipping any amount you feel is appropriate for the value you received. :)
+
+- Give the dev a :moneybag: tip here: [solarbabies.tips](https://solarbabies.tips)
+
 ## License
 
-[MIT](https://github.com/SWalls/node-package-template/blob/master/LICENSE)
-
-*Template created by combining:*
-
-- https://github.com/CharlesStover/node-package-template
-- https://github.com/remarkablemark/npm-package-template
+[MIT](https://github.com/SWalls/audiotrip-choreo-utils/blob/master/LICENSE)
