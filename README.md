@@ -1,4 +1,4 @@
-# Node package
+# audiotrip-choreo-utils
 
 [![version](https://img.shields.io/npm/v/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![build status](https://travis-ci.org/SWalls/audiotrip-choreo-utils.svg?branch=master)](https://travis-ci.org/SWalls/audiotrip-choreo-utils)
@@ -8,7 +8,7 @@
 [![downloads](https://img.shields.io/npm/dt/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![GitHub Action: Push](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml)
 
-Description 
+Useful functions for easily reading, parsing, and manipulating .ats choreography files for AudioTrip VR.
 
 ## Install
 
@@ -102,6 +102,15 @@ $ npm run lint:fix
 - `yarn up "*" "@*/*"`
 - If you use VIM, run `yarn sdks vim`.
 - If you use Visual Studio Code, run `yarn sdks vscode`.
+
+### Special Thanks
+
+- [@hn3000/ats-types](https://github.com/hn3000/ats-types)
+- 🕺Audio Trip Custom Choreography: https://www.atcd.club/
+  - 💾⬇️ Download choreos here:
+https://discord.gg/3vZP5YK
+- 🎧 Audio Trip:
+http://www.kinemotik.com/audiotrip/
 
 ## Support
 
