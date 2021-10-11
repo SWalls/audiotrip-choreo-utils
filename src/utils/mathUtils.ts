@@ -60,7 +60,6 @@ export const getCircumferencePoint = (
   centerX = 0,
   centerY = 0,
 ): Coordinate => {
-  // angle = angle || randomHalfCircleAngle();
   return {
     x: Math.cos(angle) * radius - (1.55 / 2 + centerX),
     y: Math.sin(angle) * radius + (1.55 / 2 + centerY), // 1.55m tall
