@@ -1,7 +1,7 @@
 # audiotrip-choreo-utils
 
 [![version](https://img.shields.io/npm/v/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
-[![build status](https://travis-ci.org/SWalls/audiotrip-choreo-utils.svg?branch=master)](https://travis-ci.org/SWalls/audiotrip-choreo-utils)
+[![build status](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils.svg?branch=main)](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils)
 [![coverage status](https://coveralls.io/repos/github/SWalls/audiotrip-choreo-utils/badge.svg?branch=master)](https://coveralls.io/github/SWalls/audiotrip-choreo-utils?branch=master)
 [![dependency status](https://david-dm.org/SWalls/audiotrip-choreo-utils.svg)](https://david-dm.org/SWalls/audiotrip-choreo-utils)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
