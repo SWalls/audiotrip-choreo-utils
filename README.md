@@ -3,7 +3,7 @@
 [![version](https://img.shields.io/npm/v/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![build status](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils.svg?branch=main)](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils)
 [![coverage status](https://coveralls.io/repos/github/SWalls/audiotrip-choreo-utils/badge.svg?branch=master)](https://coveralls.io/github/SWalls/audiotrip-choreo-utils?branch=master)
-[![dependency status](https://flat.badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)](https://flat.badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)
+[![dependency status](https://badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)](https://badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![downloads](https://img.shields.io/npm/dt/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![GitHub Action: Push](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml)
