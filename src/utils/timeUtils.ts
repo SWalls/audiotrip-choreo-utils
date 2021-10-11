@@ -1,3 +1,5 @@
+/*eslint no-magic-numbers: [0]*/
+/*eslint @typescript-eslint/no-magic-numbers: [0]*/
 import moment from 'moment';
 
 export const samplesPerSecond = 64;

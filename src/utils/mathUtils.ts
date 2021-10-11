@@ -1,58 +1,57 @@
-/** Mockable random number generator. */
-export class Random {
-  nextIdx = 0;
+/*eslint no-magic-numbers: [0]*/
+/*eslint @typescript-eslint/no-magic-numbers: [0]*/
 
-  options: number[] = [];
-
-  constructor(options: number[] = []) {
-    this.options = options;
-  }
-
-  next = () => {
-    this.nextIdx = (this.nextIdx + 1) % this.options.length;
-    return this.options.length > 0 ? this.options[this.nextIdx] : Math.random();
-  };
+/** An XYZ coordinate (z is optional). */
+export interface Coordinate {
+  x: number;
+  y: number;
+  z?: number;
 }
 
-/** Default random number generator that uses Math.random() */
-export const RANDOM = new Random();
-
-export const medianValue = (values: number[]) => {
-  if (values.length === 0) return 0;
-  values.sort((a, b) => a - b);
+/**
+ * Gets the median value.
+ * @param values list of values
+ * @returns median
+ */
+export const medianValue = (unSorted: readonly number[]): number => {
+  if (unSorted.length === 0) return 0;
+  const values = unSorted.slice().sort((a, b) => a - b);
   const half = Math.floor(values.length / 2);
   if (values.length % 2) return values[half];
   return (values[half - 1] + values[half]) / 2.0;
 };
 
-// including min, excluding max
-export const randomBetween = (min: number, max: number, rand = RANDOM) => {
-  return rand.next() * (max - min) + min;
+/**
+ * Gets a random number between min inclusive, max exclusive.
+ */
+export const randomBetween = (min: number, max: number): number => {
+  return Math.random() * (max - min) + min;
 };
 
 // including min, excluding max
-export const randomIntBetween = (min: number, max: number, rand = RANDOM) => {
-  return Math.floor(rand.next() * (max - min)) + min;
+export const randomIntBetween = (min: number, max: number): number => {
+  return Math.floor(Math.random() * (max - min)) + min;
 };
 
-export const randomSelection = (options: any[], rand = RANDOM) => {
-  return options[randomIntBetween(0, options.length, rand)];
+export const randomSelection = (
+  options: number[] | string[],
+): number | string => {
+  return options[randomIntBetween(0, options.length)];
 };
 
-export const randomAngle = (rand = RANDOM) => {
-  return randomBetween(0, Math.PI * 2, rand);
+export const randomAngle = (): number => {
+  return randomBetween(0, Math.PI * 2);
 };
 
-export const randomHalfCircleAngle = (rand = RANDOM) => {
-  return randomBetween(-Math.PI / 2, Math.PI / 2, rand);
+export const randomHalfCircleAngle = (): number => {
+  return randomBetween(-Math.PI / 2, Math.PI / 2);
 };
 
 export const randomAngleBetweenDegrees = (
   minDegrees: number,
   maxDegrees: number,
-  rand = RANDOM,
-) => {
-  return (randomBetween(minDegrees, maxDegrees, rand) / 180) * Math.PI;
+): number => {
+  return (randomBetween(minDegrees, maxDegrees) / 180) * Math.PI;
 };
 
 export const getCircumferencePoint = (
@@ -60,7 +59,7 @@ export const getCircumferencePoint = (
   radius = 1,
   centerX = 0,
   centerY = 0,
-) => {
+): Coordinate => {
   // angle = angle || randomHalfCircleAngle();
   return {
     x: Math.cos(angle) * radius - (1.55 / 2 + centerX),
@@ -68,4 +67,4 @@ export const getCircumferencePoint = (
   };
 };
 
-export const sumReducer = (a: number, b: number) => a + b;
+export const sumReducer = (a: number, b: number): number => a + b;

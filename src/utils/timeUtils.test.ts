@@ -1,3 +1,5 @@
+/*eslint no-magic-numbers: [0]*/
+/*eslint @typescript-eslint/no-magic-numbers: [0]*/
 import * as TimeUtils from './timeUtils';
 
 describe('timeUtils', () => {
