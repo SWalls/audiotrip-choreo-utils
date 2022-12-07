@@ -83,7 +83,7 @@
     "react-test-renderer": "^17.0.0",
     "rollup": "^2.58.0",
     "rollup-plugin-postcss": "^4.0.1",
-    "rollup-plugin-typescript2": "^0.31.0",
+    "rollup-plugin-typescript2": "^0.34.1",
     "standard-version": "^9.0.0",
     "ts-jest": "^27.0.0",
     "tslib": "^2.0.0",
