@@ -66,7 +66,7 @@
     "@vidavidorra/commitlint-config": "^4.0.7",
     "@yarnpkg/sdks": "^3.0.0-rc.32",
     "coveralls": "^3.1.1",
-    "eslint": "^7.0.0",
+    "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.0.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.0.0",
