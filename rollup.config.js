@@ -6,7 +6,7 @@ import path from 'path';
 import postcssUrl from 'postcss-url';
 import postcss from 'rollup-plugin-postcss';
 import typescript2 from 'rollup-plugin-typescript2';
-import packageJson from './package.json';
+import packageJson from './package.json' assert {type: 'json'};
 
 const COMMONJS_EXTENSION = 'cjs';
 const ESM_EXTENSION = 'js';
