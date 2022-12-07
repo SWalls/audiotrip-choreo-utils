@@ -71,7 +71,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.0.0",
     "eslint-plugin-react-hooks": "^4.0.0",
-    "husky": "^7.0.2",
+    "husky": "^8.0.2",
     "jest": "^27.0.0",
     "lint-staged": "^13.1.0",
     "node-sass": "^8.0.0",
