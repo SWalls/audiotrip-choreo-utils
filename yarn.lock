@@ -493,16 +493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:13.2.0":
-  version: 13.2.0
-  resolution: "@commitlint/config-conventional@npm:13.2.0"
-  dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: fd659269fe31df17bf479b90e915e063c7dc61b795396458d403c4154f037e152ad015463c078a881af18456c638ab3b6c1b67966abc42b131e5a900ad3c2753
-  languageName: node
-  linkType: hard
-
-"@commitlint/config-conventional@npm:^17.3.0":
+"@commitlint/config-conventional@npm:17.3.0, @commitlint/config-conventional@npm:^17.3.0":
   version: 17.3.0
   resolution: "@commitlint/config-conventional@npm:17.3.0"
   dependencies:
@@ -1196,7 +1187,7 @@ __metadata:
     "@types/react-dom": ^18.0.9
     "@typescript-eslint/eslint-plugin": ^4.0.0
     "@typescript-eslint/parser": ^5.45.1
-    "@vidavidorra/commitlint-config": ^3.0.3
+    "@vidavidorra/commitlint-config": ^4.0.7
     "@yarnpkg/sdks": ^3.0.0-rc.32
     coveralls: ^3.1.1
     eslint: ^7.0.0
@@ -1770,13 +1761,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vidavidorra/commitlint-config@npm:^3.0.3":
-  version: 3.0.3
-  resolution: "@vidavidorra/commitlint-config@npm:3.0.3"
+"@vidavidorra/commitlint-config@npm:^4.0.7":
+  version: 4.0.7
+  resolution: "@vidavidorra/commitlint-config@npm:4.0.7"
   dependencies:
-    "@commitlint/config-conventional": 13.2.0
-    commitlint-plugin-function-rules: 1.4.0
-  checksum: 8b991f8a123ef3ba899e7af88069f1f6e7f948d7db9cd479c8372ba7fb82d81b11661c8ad0f3616cce1b237f4d163a33480e6803736c0fe8113fbefb10453cac
+    "@commitlint/config-conventional": 17.3.0
+    commitlint-plugin-function-rules: 1.7.1
+  checksum: eea8812f9fe956a66bb7c5867ca781c4fcf0a5f5311049f0012397381995533c2a6741e0bb0d3b3becf06ed7a5c5cce11d08d87415662a3e1ff301d7e4911b30
   languageName: node
   linkType: hard
 
@@ -2864,12 +2855,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commitlint-plugin-function-rules@npm:1.4.0":
-  version: 1.4.0
-  resolution: "commitlint-plugin-function-rules@npm:1.4.0"
+"commitlint-plugin-function-rules@npm:1.7.1":
+  version: 1.7.1
+  resolution: "commitlint-plugin-function-rules@npm:1.7.1"
   peerDependencies:
-    "@commitlint/lint": ">=9.1.2 || 10.x || 11.x || 12.x || 13.x"
-  checksum: 536bbffe3417fc3de081a7cf4bd94c86e826a442daa085acf19b57d0d3c8748f46d458c60009607daca0abe675e0c87fe8a730f8f05d577aa5b9a8c4fbf853ec
+    "@commitlint/lint": ">=9.1.2 <18"
+  checksum: 0b6ab8fa4a1143d0c0063ab1016cf59e6e57739630e10b0a01598bb957c787fadf0fabb9d56b4aa2b565677df2c39433ed59a6f4d2810d4191d674cab57c0181
   languageName: node
   linkType: hard
 
@@ -2971,7 +2962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1, conventional-changelog-conventionalcommits@npm:^4.5.0":
+"conventional-changelog-conventionalcommits@npm:^4.5.0":
   version: 4.6.1
   resolution: "conventional-changelog-conventionalcommits@npm:4.6.1"
   dependencies:
