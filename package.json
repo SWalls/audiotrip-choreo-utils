@@ -64,7 +64,7 @@
     "@typescript-eslint/eslint-plugin": "^4.0.0",
     "@typescript-eslint/parser": "^5.45.1",
     "@vidavidorra/commitlint-config": "^3.0.3",
-    "@yarnpkg/sdks": "^2.4.2-rc.8",
+    "@yarnpkg/sdks": "^3.0.0-rc.32",
     "coveralls": "^3.1.1",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^8.0.0",
