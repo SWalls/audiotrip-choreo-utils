@@ -1,12 +1,12 @@
 # audiotrip-choreo-utils
 
 [![version](https://img.shields.io/npm/v/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
-[![build status](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils.svg?branch=main)](https://app.travis-ci.com/SWalls/audiotrip-choreo-utils)
-[![coverage status](https://coveralls.io/repos/github/SWalls/audiotrip-choreo-utils/badge.svg?branch=master)](https://coveralls.io/github/SWalls/audiotrip-choreo-utils?branch=master)
-[![dependency status](https://badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)](https://badgen.net/dependabot/SWalls/audiotrip-choreo-utils?icon=dependabot)
+[![build status](https://app.travis-ci.com/DinoSoeren/audiotrip-choreo-utils.svg?branch=main)](https://app.travis-ci.com/DinoSoeren/audiotrip-choreo-utils)
+[![coverage status](https://coveralls.io/repos/github/DinoSoeren/audiotrip-choreo-utils/badge.svg?branch=master)](https://coveralls.io/github/DinoSoeren/audiotrip-choreo-utils?branch=master)
+[![dependency status](https://badgen.net/dependabot/DinoSoeren/audiotrip-choreo-utils?icon=dependabot)](https://badgen.net/dependabot/DinoSoeren/audiotrip-choreo-utils?icon=dependabot)
 [![minzipped size](https://img.shields.io/bundlephobia/minzip/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
 [![downloads](https://img.shields.io/npm/dt/@swalls/audiotrip-choreo-utils.svg)](https://www.npmjs.com/package/@swalls/audiotrip-choreo-utils)
-[![GitHub Action: Push](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml/badge.svg)](https://github.com/SWalls/audiotrip-choreo-utils/actions/workflows/push.yml)
+[![GitHub Action: Push](https://github.com/DinoSoeren/audiotrip-choreo-utils/actions/workflows/push.yml/badge.svg)](https://github.com/DinoSoeren/audiotrip-choreo-utils/actions/workflows/push.yml)
 
 Useful functions for easily reading, parsing, and manipulating .ats choreography files for AudioTrip VR.
 
@@ -22,14 +22,14 @@ Useful functions for easily reading, parsing, and manipulating .ats choreography
 Clone repository with Git:
 
 ```sh
-$ git clone https://github.com/SWalls/audiotrip-choreo-utils.git
+$ git clone https://github.com/DinoSoeren/audiotrip-choreo-utils.git
 $ cd audiotrip-choreo-utils
 ```
 
 Or download repository with ZIP:
 
 ```sh
-$ curl -LO https://github.com/SWalls/audiotrip-choreo-utils/archive/master.zip
+$ curl -LO https://github.com/DinoSoeren/audiotrip-choreo-utils/archive/master.zip
 $ unzip master.zip
 $ rm master.zip
 $ cd audiotrip-choreo-utils
@@ -120,4 +120,4 @@ This free open-source software was made with :heart: by a real person - me! If y
 
 ## License
 
-[MIT](https://github.com/SWalls/audiotrip-choreo-utils/blob/master/LICENSE)
+[MIT](https://github.com/DinoSoeren/audiotrip-choreo-utils/blob/master/LICENSE)

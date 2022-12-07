@@ -12,7 +12,7 @@
   "types": "./types/index.d.ts",
   "bugs": {
     "email": "me@soerenwalls.com",
-    "url": "https://github.com/SWalls/audiotrip-choreo-utils/issues"
+    "url": "https://github.com/DinoSoeren/audiotrip-choreo-utils/issues"
   },
   "directories": {
     "lib": "src"
@@ -23,7 +23,7 @@
   ],
   "funding": {
     "type": "individual",
-    "url": "https://github.com/sponsors/SWalls"
+    "url": "https://github.com/sponsors/DinoSoeren"
   },
   "keywords": [
     "audiotrip-choreo-utils"
@@ -35,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/SWalls/audiotrip-choreo-utils.git"
+    "url": "https://github.com/DinoSoeren/audiotrip-choreo-utils.git"
   },
   "scripts": {
     "coveralls": "jest --coverage && cat ./tests/coverage/lcov.info | coveralls",
