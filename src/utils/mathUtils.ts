@@ -34,7 +34,7 @@ export const randomIntBetween = (min: number, max: number): number => {
 };
 
 export const randomSelection = (
-  options: number[] | string[],
+  options: readonly number[] | readonly string[],
 ): number | string => {
   return options[randomIntBetween(0, options.length)];
 };
