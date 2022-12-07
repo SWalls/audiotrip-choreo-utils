@@ -85,14 +85,15 @@ export interface PointOnACircle {
 /**
  * Gets the 2D coordinate representing the point on the circumference of the
  * circle defined by the radius and offset from center, at the given angle.
+ * If not provided, uses angle 0, radius 1, center at {x:0,y:0}, and offset of
+ * @see PERSON_HEIGHT_METERS / 2
  */
-export function getCircumferencePoint(
-    {angle, radius, center, offset}: PointOnACircle = {
-      angle: 0,
-      radius: 1,
-      center: ORIGIN_2D,
-      offset: PERSON_HEIGHT_METERS / 2,
-    }): Coordinate2D {
+export function getCircumferencePoint({
+  angle = 0,
+  radius = 1,
+  center = ORIGIN_2D,
+  offset = PERSON_HEIGHT_METERS / 2,
+}: Partial<PointOnACircle>): Coordinate2D {
   return {
     x: Math.cos(angle) * radius - (offset + center.x),
     y: Math.sin(angle) * radius + (offset + center.y),

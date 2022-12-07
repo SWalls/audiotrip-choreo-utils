@@ -128,7 +128,7 @@
     "@typescript-eslint/return-await": "error",
     "@typescript-eslint/semi": "error",
     "@typescript-eslint/sort-type-union-intersection-members": "error",
-    "@typescript-eslint/space-infix-ops": "error",
+    "@typescript-eslint/space-infix-ops": "off",
     "@typescript-eslint/strict-boolean-expressions": "error",
     "@typescript-eslint/switch-exhaustiveness-check": "error",
     "@typescript-eslint/triple-slash-reference": "error",
