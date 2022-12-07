@@ -31,7 +31,7 @@ export const TRUE_ORIGIN: Coordinate3D = {
 /** Represents an angle (number and unit). */
 export interface Angle {
   readonly value: number;
-  readonly unit: 'radians'|'degrees';
+  readonly unit: 'degrees'|'radians';
 }
 
 /** Converts the given angle in degrees to radians. */
@@ -53,20 +53,6 @@ export interface PointOnACircle {
 }
 
 /**
- * Returns the 2D point on a circle at the center of the player's viewport,
- * at the given angle (in radians), where y=
- * @see PERSON_HEIGHT_METERS / 2
- */
-export function getViewportCircumferencePointAt({angle}: {angle: Angle}):
-    Coordinate2D {
-  return getCircumferencePoint({
-    angle,
-    radius: 1,
-    center: PLAYSPACE_ORIGIN,
-  });
-}
-
-/**
  * Gets the 2D coordinate representing the point on the circumference of the
  * circle defined by the radius and center point, at the given angle.
  */
@@ -77,4 +63,18 @@ export function getCircumferencePoint({angle, radius, center}: PointOnACircle):
     x: Math.cos(angleRadians) * radius + (center.x),
     y: Math.sin(angleRadians) * radius + (center.y),
   };
+}
+
+/**
+ * Returns the 2D point on a circle at the center of the player's viewport,
+ * at the given angle (in radians), where y=
+ * @see PERSON_HEIGHT_METERS / 2
+ */
+export function getViewportCircumferencePointAt(
+    {angle}: {readonly angle: Angle}): Coordinate2D {
+  return getCircumferencePoint({
+    angle,
+    radius: 1,
+    center: PLAYSPACE_ORIGIN,
+  });
 }

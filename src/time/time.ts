@@ -18,9 +18,13 @@ export interface Duration {
 export function getDuration(
   { minutes = 0, seconds = 0, milliseconds = 0 }:
     { readonly minutes?: number; readonly seconds?: number; readonly milliseconds?: number }): Duration {
-  const minDuration = Number(minutes) * SEC_PER_MIN * MS_PER_SEC;
-  const secDuration = Number(seconds) * MS_PER_SEC;
-  return {milliseconds: Number(milliseconds) + minDuration + secDuration};
+  if (minutes < 0 || seconds < 0 || milliseconds < 0) {
+    throw new Error(`Negative duration is meaningless. ${minutes}:${seconds}:${
+        milliseconds}`);
+  }
+  const minDuration = minutes * SEC_PER_MIN * MS_PER_SEC;
+  const secDuration = seconds * MS_PER_SEC;
+  return {milliseconds: milliseconds + minDuration + secDuration};
 }
 
 /** Trims the given value to be only the prefix of the given limit length. */

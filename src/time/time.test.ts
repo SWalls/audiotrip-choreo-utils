@@ -16,6 +16,12 @@ describe('time', () => {
     it('returns expected Ms duration given 1 valid input', () => {
       expect(time.getDuration({minutes: 4}).milliseconds).toBe(240000);
     });
+
+    it('throws error given negative input', () => {
+      expect(() => time.getDuration({
+        minutes: -2,
+      })).toThrowError(/Negative duration is meaningless/);
+    });
   });
 
   describe('trimAndPadNumber', () => {
