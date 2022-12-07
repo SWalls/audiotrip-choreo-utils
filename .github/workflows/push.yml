@@ -92,11 +92,11 @@ jobs:
           name: rollup
           path: .
       - name: Publish
-        run: >
-          yarn config set npmAuthToken $NPM_AUTH_TOKEN;
-          yarn npm publish --tolerate-republish;
         env:
           NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+        run: >
+          yarn config set npmAuthToken "$NPM_AUTH_TOKEN";
+          yarn npm publish --tolerate-republish;
 
 on:
   push:
