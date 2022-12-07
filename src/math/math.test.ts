@@ -1,4 +1,4 @@
-import * as MathUtils from './mathUtils';
+import * as MathUtils from './math';
 
 describe('mathUtils', () => {
   beforeEach(() => {

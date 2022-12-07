@@ -1,4 +1,4 @@
-import * as TimeUtils from './timeUtils';
+import * as TimeUtils from './time';
 
 describe('timeUtils', () => {
   describe('getDuration', () => {
