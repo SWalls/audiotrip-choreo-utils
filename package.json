@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.js",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.3.0",
   "type": "module",
   "types": "./types/index.d.ts",
   "bugs": {
