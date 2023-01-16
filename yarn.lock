@@ -435,7 +435,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:17.3.0, @commitlint/config-conventional@npm:^17.3.0":
+"@commitlint/config-conventional@npm:17.4.2":
+  version: 17.4.2
+  resolution: "@commitlint/config-conventional@npm:17.4.2"
+  dependencies:
+    conventional-changelog-conventionalcommits: ^5.0.0
+  checksum: 517dd3b3395774084503606b5c5f9acb0e92db6cd5dd237716993b9858eb9e7e10da981e2a68f99aa2f48afb4d3597b04449c9e2bfde8af2690a0b40ea40115e
+  languageName: node
+  linkType: hard
+
+"@commitlint/config-conventional@npm:^17.3.0":
   version: 17.3.0
   resolution: "@commitlint/config-conventional@npm:17.3.0"
   dependencies:
@@ -1674,12 +1683,12 @@ __metadata:
   linkType: hard
 
 "@vidavidorra/commitlint-config@npm:^4.0.7":
-  version: 4.0.7
-  resolution: "@vidavidorra/commitlint-config@npm:4.0.7"
+  version: 4.0.10
+  resolution: "@vidavidorra/commitlint-config@npm:4.0.10"
   dependencies:
-    "@commitlint/config-conventional": 17.3.0
+    "@commitlint/config-conventional": 17.4.2
     commitlint-plugin-function-rules: 1.7.1
-  checksum: eea8812f9fe956a66bb7c5867ca781c4fcf0a5f5311049f0012397381995533c2a6741e0bb0d3b3becf06ed7a5c5cce11d08d87415662a3e1ff301d7e4911b30
+  checksum: 3e2f9416737337895edcd40b18650355ad30d097d8c92e0d24ebcf22ccbeab454e883b1bfe35e779f12c3179dfa597a67e5363003fa5cde17e16e694e48bc972
   languageName: node
   linkType: hard
 
